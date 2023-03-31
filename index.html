@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./style/style.css">
+        <title>Change request</title>
+    </head>
+    <body>
+        <p>Formato de solicitud de cambio</p>
+
+        <div class="divCent">
+            <div class="formulario">
+                <label for="proyecto">Proyecto:</label>
+                <br>
+                <input type="text" id="proyecto" name="proyecto" class="intput">
+                
+                <br>
+            
+                <label for="numero">Numero:</label>
+                <br>
+                <input type="text" id="numero" name="numero" class="intput">
+                
+                <br>
+            
+                <label for="solicitante">Solicitante del cambio:</label>
+                <br>
+                <input type="text" id="solicitante" name="solicitante" class="intput">
+                
+                <br>
+            
+                <label for="fecha">Fecha:</label>
+                <br>
+                <input type="date" id="fecha" name="fecha" class="intput">
+                
+                <br>
+            
+                <label for="cambio">Cambio solicitado:</label>
+                <br>
+                <input type="text" id="cambio" name="cambio" class="intput">
+                
+                <br>
+            
+                <label for="analizador">Analizador del cambio:</label>
+                <br>
+                <input type="text" id="analizador" name="analizador" class="intput">
+                
+                <br>
+            
+                <label for="fecha_analisis">Fecha de análisis:</label>
+                <br>
+                <input type="date" id="fecha_analisis" name="fecha_analisis" class="intput">
+                
+                <br>
+            
+                <label for="componentes">Componentes afectados:</label>
+                <br>
+                <input type="text" id="componentes" name="componentes" class="intput">
+                
+                <br>
+            
+                <label for="componentes_asociados">Componentes asociados:</label>
+                <br>
+                <input type="text" id="componentes_asociados" name="componentes_asociados" class="intput">
+                
+                <br>
+            
+                <label for="valoracion">Valoración del cambio:</label>
+                
+                <br>
+                <input type="text" id="valoracion" name="valoracion" class="intput">
+                
+                <br>
+            
+                <label for="prioridad">Prioridad del cambio:</label>
+                <br>
+                <input type="text" id="prioridad" name="prioridad" class="intput">
+                
+                <br>
+            
+                <label for="implementacion">Implementación del cambio:</label>
+                <br>
+                <input type="text" id="implementacion" name="implementacion" class="intput">
+                
+                <br>
+            
+                <label for="esfuerzo">Esfuerzo estimado:</label>
+                <br>
+                <input type="text" id="esfuerzo" name="esfuerzo" class="intput">
+                
+                <br>
+            
+                <label for="fecha_equipo">Fecha para equipo SGA app:</label>
+                <br>
+                <input type="date" id="fecha_equipo" name="fecha_equipo" class="intput">
+                
+                <br>
+            
+                <label for="decision">Decisión:</label>
+                <br>
+                <input type="text" id="decision" name="decision" class="intput">
+                
+                <br>
+            
+                <label for="fecha_decision">Fecha de decisión CCB:</label>
+                <br>
+                <input type="date" id="fecha_decision" name="fecha_decision" class="intput">
+                
+                <br>
+            
+                <label for="implementador_cambio">Implementación del cambio:</label>
+                <br>
+                <input type="text" id="implementador_cambio" name="implementador_cambio" class="intput">
+                
+                <br>
+            
+                <label for="fecha_cambio">Fecha de cambio:</label>
+                <br>
+                <input type="date" id="fecha_cambio" name="fecha_cambio" class="intput">
+                
+                <br>
+            
+                <label for="fecha_envio_qa">Fecha de envío a QA:</label>
+                <br>
+                <input type="date" id="fecha_envio_qa" name="fecha_envio_qa" class="intput">
+                
+                <br>
+            
+                <label for="decision_qa">Decisión de QA:</label>
+                <br>
+                <input type="text" id="decision_qa" class="intput">
+                
+                <br>
+
+                <label for="fecha_envio_cm">Fecha de envío a CM:</label>
+                <br>
+                <input type="date" id="fecha_envio_cm" name="fecha_envio_cm" class="intput">
+                
+                <br>
+
+                <label for="comentarios">Comentarios del cambio:</label>
+                <br>
+                <input type="text" id="comentarios" name="comentarios" class="intput">
+
+                <br><hr>               
+                
+                <input type="button" id="pdf" name="pdf" value="PDF" class="button">
+            </div>
+        </div>
+
+        <script src="./js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+    </body>
+</html>
