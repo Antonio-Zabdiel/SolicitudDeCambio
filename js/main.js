@@ -41,5 +41,5 @@ function jsonToPdf(jsonData)
      }     
 
     doc.text(jsonString, 10, 10);
-    doc.save('change.pdf');
+    doc.save('SolicitudCambio.pdf');
 }
